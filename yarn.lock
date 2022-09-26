@@ -528,6 +528,14 @@
     "@ckeditor/ckeditor5-utils" "^35.1.0"
     lodash-es "^4.17.15"
 
+"@ckeditor/ckeditor5-word-count@>=35.1.0":
+  version "35.1.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-word-count/-/ckeditor5-word-count-35.1.0.tgz#3081091cc4aed5c2dd1119110e2d860a470b1e3b"
+  integrity sha512-G98wZZ0JstnyP0a92fpMhi3wq3os56CD27s8jtNbjuat10ZRx2mIcGgxUprvkS3qbygs55liENzotFlPRlA7ww==
+  dependencies:
+    ckeditor5 "^35.1.0"
+    lodash-es "^4.17.15"
+
 "@colors/colors@1.5.0":
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"

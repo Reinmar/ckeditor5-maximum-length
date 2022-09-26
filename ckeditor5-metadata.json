@@ -1,17 +1,10 @@
 {
 	"plugins": [
 		{
-			"name": "My plugin",
-			"className": "MyPlugin",
-			"description": "Adds text to the editor.",
-			"path": "src/myplugin.js",
-			"uiComponents": [
-				{
-					"name": "myButton",
-					"type": "Button",
-					"iconPath": "theme/icons/ckeditor.svg"
-				}
-			]
+			"name": "Maximum length validation",
+			"className": "MaximumLength",
+			"description": "Marks excess text with a red marker to indicate that it needs to be removed.",
+			"path": "src/maximumlength.js"
 		}
 	]
 }
