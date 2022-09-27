@@ -1,7 +1,7 @@
 {
   "name": "@reinmar/ckeditor5-maximum-length",
   "version": "0.0.1",
-  "description": "A plugin for CKEditor 5.",
+  "description": "Maximum length plugin for CKEditor 5.",
   "keywords": [
     "ckeditor",
     "ckeditor5",

@@ -1,5 +1,5 @@
-@reinmar/ckeditor5-maximum-length
-=================================
+Maximum length plugin for CKEditor 5
+====================================
 
 This package was created by the [ckeditor5-package-generator](https://www.npmjs.com/package/ckeditor5-package-generator) package.
 
