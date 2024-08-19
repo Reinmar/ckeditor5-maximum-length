@@ -26,7 +26,7 @@ import {
 	WordCount
 } from 'ckeditor5';
 
-import MaximumLlength from '../src/maximumlength.js';
+import MaximumLength from '../src/maximumlength.js';
 
 import 'ckeditor5/ckeditor5.css';
 
@@ -35,7 +35,7 @@ import 'ckeditor5/ckeditor5.css';
 ClassicEditor
 	.create( document.querySelector( '#editor' ), {
 		plugins: [
-			MaximumLlength,
+			MaximumLength,
 			Essentials,
 			Autoformat,
 			BlockQuote,
@@ -63,8 +63,6 @@ ClassicEditor
 			'undo',
 			'redo',
 			'|',
-			'maximumLlengthButton',
-			'|',
 			'heading',
 			'|',
 			'bold',
@@ -83,6 +81,9 @@ ClassicEditor
 			'mediaEmbed',
 			'codeBlock'
 		],
+		maximumLength: {
+			characters: 200
+		},
 		image: {
 			toolbar: [
 				'imageStyle:inline',
