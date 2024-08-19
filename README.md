@@ -24,7 +24,7 @@ To read about the CKEditor 5 Framework, visit the [CKEditor 5 Framework document
 ## Available scripts
 NPM scripts are a convenient way to provide commands in a project. They are defined in the `package.json` file and shared with people contributing to the project. It ensures developers use the same command with the same options (flags).
 
-All the scripts can be executed by running `npm run <script>`. Pre and post commands with matching names will be run for those as well.
+All the scripts can be executed by running `yarn run <script>`. Pre and post commands with matching names will be run for those as well.
 
 The following scripts are available in the package.
 
@@ -40,13 +40,13 @@ Examples:
 
 ```bash
 # Starts the server and open the browser.
-npm run start
+yarn run start
 
 # Disable auto-opening the browser.
-npm run start -- --no-open
+yarn run start -- --no-open
 
 # Create the editor with the interface in German.
-npm run start -- --language=de
+yarn run start -- --language=de
 ```
 
 ### `test`
@@ -62,10 +62,10 @@ Examples:
 
 ```bash
 # Execute tests.
-npm run test
+yarn run test
 
 # Generate code coverage report after each change in the sources.
-npm run test -- --coverage --test
+yarn run test -- --coverage --test
 ```
 
 ### `lint`
@@ -76,7 +76,7 @@ Examples:
 
 ```bash
 # Execute eslint.
-npm run lint
+yarn run lint
 ```
 
 ### `stylelint`
@@ -87,7 +87,7 @@ Examples:
 
 ```bash
 # Execute stylelint.
-npm run stylelint
+yarn run stylelint
 ```
 
 ### `build:dist`
@@ -98,7 +98,7 @@ Examples:
 
 ```bash
 # Builds the `npm` and browser files thats are ready to publish.
-npm run build:dist
+yarn run build:dist
 ```
 
 ### `translations:collect`
@@ -114,7 +114,7 @@ The task may end with an error if one of the following conditions is met:
 Examples:
 
 ```bash
-npm run translations:collect
+yarn run translations:collect
 ```
 
 ### `translations:download`
@@ -128,7 +128,7 @@ To avoid passing the `--transifex` option whenever you call the command, you can
 Examples:
 
 ```bash
-npm run translations:download -- --transifex [API URL]
+yarn run translations:download -- --transifex [API URL]
 ```
 
 ### `translations:upload`
@@ -142,7 +142,7 @@ To avoid passing the `--transifex` option whenever you call the command, you can
 Examples:
 
 ```bash
-npm run translations:upload -- --transifex [API URL]
+yarn run translations:upload -- --transifex [API URL]
 ```
 
 ## License
