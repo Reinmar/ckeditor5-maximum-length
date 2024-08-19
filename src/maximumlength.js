@@ -1,4 +1,4 @@
-import { Plugin } from 'ckeditor5/src/core';
+import { Plugin } from 'ckeditor5';
 import '../theme/maximumlength.css';
 
 export default class MaximumLength extends Plugin {
